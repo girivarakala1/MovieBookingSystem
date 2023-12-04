@@ -9,7 +9,7 @@ records = db.theatres
 
 
 def main():
-    # mongoUpdates.update_all_theatres()
+    mongoUpdates.update_all_theatres()
     tab1, tab2, tab3 = st.tabs(["HOME", "BOOKING", "EXTRA"])
     global res_name
 
