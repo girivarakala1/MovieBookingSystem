@@ -1,7 +1,7 @@
 import pymongo, mongoUpdates, registrations,booking,streamlit as st
 
-
-client = pymongo.MongoClient("mongodb+srv://girivarkala1:Butterfly1211@cluster0.ca6tkne.mongodb.net/?retryWrites=true&w=majority")
+password = "Enter your password"
+client = pymongo.MongoClient(f"mongodb+srv://girivarkala1:{password}@cluster0.ca6tkne.mongodb.net/?retryWrites=true&w=majority")
 db = client.cinemas
 
 record_users = db.users
